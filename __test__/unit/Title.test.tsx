@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import Title from '.'
+import Title from '@/components/Title'
 
 describe("Title testing", () => {
     test("The title renders correctly", () => {

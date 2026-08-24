@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react'
-import Container from '.'
+import Container from '@/components/Container'
 
 describe("Container testing", () => {
     test("The game displays three square buttons", () => {

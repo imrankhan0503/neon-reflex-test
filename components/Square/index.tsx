@@ -1,4 +1,4 @@
-
+'use client'
 type SquareProps = {
     id: number,
     isSelected: boolean,
@@ -21,7 +21,7 @@ const Square = ({id, isSelected, isCorrect, gameFinished, clickFunction}: Square
 
     return(
         <button disabled={gameFinished} onClick={() => clickFunction(id)} 
-                className={`${backgroundColor} w-32 h-32 rounded-xl`}></button>
+                className={`${backgroundColor} w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-xl`}></button>
     )
 }
 

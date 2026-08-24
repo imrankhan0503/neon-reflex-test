@@ -1,6 +1,7 @@
-
+'use client'
 import Header from '@/components/Header';
 import './globals.css'
+import Container from '@/components/Container';
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     
     <div>
       <Header />
+      <Container />
     </div>
   )
 }

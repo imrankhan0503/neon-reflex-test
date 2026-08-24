@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import Subtitle from '.'
+import Subtitle from '@/components/SubTitle'
 
 describe("Subtitle testing", () => {
     test("The subtitle renders correctly", () => {

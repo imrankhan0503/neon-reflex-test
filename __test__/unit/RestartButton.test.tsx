@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react'
-import RestartButton from '.'
+import RestartButton from '@/components/RestartButton'
 
 describe("Restart button testing", () => {
     test("The restart button is displayed", () => {

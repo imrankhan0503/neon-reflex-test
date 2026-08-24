@@ -5,7 +5,7 @@ type SubTitleProps = {
 const SubTitle = ({text}: SubTitleProps) => {
     
     return (
-        <h2>{text}</h2>
+        <h2 className="mt-2 text-base sm:text-lg md:text-xl">{text}</h2>
     )
 }
 

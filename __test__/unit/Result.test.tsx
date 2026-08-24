@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import Result from '.'
+import Result from '@/components/Result'
 
 describe("Result testing", () => {
     test("The result displays the provided winning message ", () => {

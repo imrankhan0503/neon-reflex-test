@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react'
-import Square from '.'
+import Square from '@/components/Square'
 
 describe("Square testing", () => {
     test("The square is displayed as a button", () => {

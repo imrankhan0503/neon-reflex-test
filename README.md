@@ -65,3 +65,19 @@ The integration tests check:
 - Selecting the correct square displays the winning result.
 - Selecting an incorrect square displays the losing result.
 - Restarting the game removes the previous result and enables the squares again.
+
+## Feedback on the Tests
+
+### Additional Tests
+
+No additional tests were needed. The existing unit and integration tests were sufficient to implement and verify the main functionality of the application.
+
+### How Could the Tests Have Been Improved?
+
+The integration tests could have verified more than just the result message after a square is clicked. For example, they could also verify that all three squares become disabled after a selection. This would verify that the `gameFinished` state is correctly passed from the `Container` component to all `Square` components.
+
+### What Should Have Been Tested That the Initial Tests Missed?
+
+The initial tests covered the main game functionality, including selecting a square, displaying the result, disabling the squares, and restarting the game. No major functionality was missed.
+
+One possible improvement would have been to test all three possible correct squares, since the correct square can be Square 1, Square 2, or Square 3. This would provide additional test coverage, but it was not necessary to verify the main functionality of the application.

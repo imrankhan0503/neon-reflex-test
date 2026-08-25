@@ -18,10 +18,10 @@ const Container = () => {
         setGameFinished(true)
 
         if (id === correctSquare){
-            setResult("You Won")
+            setResult("You Won!")
         }
         else{
-            setResult("You lost")
+            setResult("You lost!")
         }
     }
 
